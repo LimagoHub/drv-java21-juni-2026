@@ -70,6 +70,7 @@ public class PatternMatchingRecordDemo {
             // Record-Pattern mit Binding in einem Schritt
             case Square(double side) ->
                     "Square side=" + side;
+
         };
 
         System.out.println("Beschreibung: " + description);
